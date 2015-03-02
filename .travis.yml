@@ -4,3 +4,8 @@ python:
 - '2.7'
 
 script: nosetests
+
+notifications:
+    slack: tagtoo:nVKAkV8qa1GhV5COWbmdnKjY
+
+sudo: false
